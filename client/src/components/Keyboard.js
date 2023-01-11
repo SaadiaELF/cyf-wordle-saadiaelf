@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button } from "reactstrap";
 
-const BoardCol = () => {
+const BoardCol = ({ onclick }) => {
   let letters = [
     "A",
     "B",
@@ -33,7 +33,14 @@ const BoardCol = () => {
   return (
     <Container className="keyboard d-flex flex-row flex-wrap justify-content-center">
       {letters.map((letter, i) => (
-        <Button className="m-2" size="lg" key={i} outline>
+        <Button
+          className="m-2"
+          size="lg"
+          key={i}
+          value={letter}
+          onClick={onclick}
+          outline
+        >
           {letter}
         </Button>
       ))}
