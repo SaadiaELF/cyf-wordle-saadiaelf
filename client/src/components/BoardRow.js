@@ -1,14 +1,15 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Row } from "reactstrap";
+import BoardCol from "./BoardCol";
 
 const BoardRow = () => {
   return (
-    <Row className="board-row">
-      <Col className="board-col bg-light border m-1">A</Col>
-      <Col className="board-col bg-light border m-1">A</Col>
-      <Col className="board-col bg-light border m-1">A</Col>
-      <Col className="board-col bg-light border m-1">A</Col>
-      <Col className="board-col bg-light border m-1">A</Col>
+    <Row className="board-row m-auto">
+      <BoardCol />
+      <BoardCol />
+      <BoardCol />
+      <BoardCol />
+      <BoardCol />
     </Row>
   );
 };
