@@ -4,7 +4,7 @@ import BoardRow from "./BoardRow";
 
 const Board = () => {
   return (
-    <Container>
+    <Container className="mb-4">
       <BoardRow />
       <BoardRow />
       <BoardRow />
