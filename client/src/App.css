@@ -9,7 +9,7 @@
 }
 
 .keyboard {
-    width: 40vw;
+    width: 80vw;
 }
 
 @media screen and (min-width: 576px) {}
@@ -25,10 +25,17 @@
         height: 60px;
     }
 
+    .keyboard {
+        width: 60vw;
+    }
 
 }
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    .keyboard {
+        width: 40vw;
+    }
+}
 
 @media screen and (min-width: 1200px) {}
 

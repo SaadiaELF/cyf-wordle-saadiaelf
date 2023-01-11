@@ -3,7 +3,7 @@ import { Col } from "reactstrap";
 
 const BoardCol = () => {
   return (
-    <Col className="board-col bg-light border m-1">
+    <Col className="board-col bg-light border border-dark m-1">
       <div className="letter text-center">A</div>
     </Col>
   );
