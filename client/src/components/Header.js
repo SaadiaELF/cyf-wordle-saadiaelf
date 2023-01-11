@@ -4,7 +4,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, Button } from "reactstrap";
 const Header = () => {
   return (
     <div>
-      <Navbar color="faded" light fixed>
+      <Navbar color="faded" light>
         <NavbarBrand href="/" className="m-auto">
           <h1>Wordle</h1>
         </NavbarBrand>
